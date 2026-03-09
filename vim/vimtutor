@@ -9,4 +9,5 @@ note: in normal status,press <ESC>.
 Lesson 1.2 Exiting VIM  
 1.press <ESC> to enter normal mode.  
 2.type: :q!<Enter>;discarding any change 
-Lesson 1.3 
+
+Lesson 1.3 TEXT EDITING - DELETION
