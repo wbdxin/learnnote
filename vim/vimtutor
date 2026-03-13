@@ -11,3 +11,12 @@ Lesson 1.2 Exiting VIM
 2.type: :q!<Enter>;discarding any change 
 
 Lesson 1.3 TEXT EDITING - DELETION
+1.move the cursor on top of character to be deleted.
+2.press the x key
+
+Lesson 1.4 TEXT EDITING - INSERTION
+1.move the cursor on top of the character BEFORE which the text is to be inserted.
+2.press i and type in the necessary additions.
+
+Lesson 1.5 TEXT EDITING - APPEDING
+1.Press A and type in the necessary additions.
