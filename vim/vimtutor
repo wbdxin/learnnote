@@ -1,22 +1,43 @@
-Lesson 1.1 Moving the cursor  
-      ^
-      k
-<h         l>  
-      j
-      v
-note: in normal status,press <ESC>.
+VIMTUTOR -1.7
+主要介绍部分命令,足够使得vim作为通用编辑器
+学习方法:实践
 
-Lesson 1.2 Exiting VIM  
-1.press <ESC> to enter normal mode.  
-2.type: :q!<Enter>;discarding any change 
+1.1:移动光标  
+            ^
+            k
+   <h               l>  
+            j
+            v
+注意:要在normal模式下移动,可以通过按ESC键来回到normal模式.
 
-Lesson 1.3 TEXT EDITING - DELETION
-1.move the cursor on top of character to be deleted.
-2.press the x key
+1.2 退出VIM  
+      1.按<ESC>来确保退回到normal模式.  
+      2.输入: :q!<Enter>;会丢失所作的修改并退出vim.
+      3.输入: wq!<Enter>;会写入所作的修改并退出vim
 
-Lesson 1.4 TEXT EDITING - INSERTION
-1.move the cursor on top of the character BEFORE which the text is to be inserted.
-2.press i and type in the necessary additions.
+1.3 文本编辑 - 删除
+在normal模式下,可以按下x键来删除光标所在位置的字符
+      1.在normal模式下,移动光标到待删除字符.
+      2.按x键进行删除.
 
-Lesson 1.5 TEXT EDITING - APPEDING
-1.Press A and type in the necessary additions.
+1.4 文本编辑 - 插入
+在normal模式下,可以按下i键来插入文本.
+      1.在normal模式下,将光标移动到待插入字符的位置.
+      2.按i键并后续输入要插入的字符.
+      3.插入后按ESC,返回normal模式
+
+1.5 文本编辑 - 添加
+      1.在normal模式,移动光标到待添加的行.
+      2.按A,并后续输入要添加的字符.
+      3.在输入完成后,按ESC退回到normal模式
+1.6 编辑文件
+使用:wq以保存文件并推出
+
+小结:
+1.移动光标可以用方向键,也可以用hjkl
+2.进入vim,执行vim命令
+3.推出vim,在normal模式:q!或者:wq
+4.在normal模式下,按x键删除光标所在字符.
+5.在normal模式下,请输入:
+      i，后跟要插入文本 <ESC>;在在光标前插入
+      A，后跟要插入文本 <ESC>;在行末添加文本
