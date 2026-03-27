@@ -1,0 +1,29 @@
+7.1使用帮助
+使用在线帮助系统
+  按:help<enter>
+  Ctrl+w,用于在窗口间切换
+
+7.2创建启动脚本
+启用vim特性，创建vimrc文件
+  .vimrc unix like
+  _vimrc ms
+  输入配置设置，w写文件
+  重启后按照vimrc文件设置vim界面
+
+7.3补齐
+使用ctrl-D和<tab>使命令行补齐
+  1.确保vim处于非兼容模式 :set nocp
+  2.看看目录下有什么文件，:!ls or :!dir
+  3.键入命令的开始部分: :e
+  4.按ctrl-d,vim将要列出e开头的清单
+  5.按<tab>,vim将补齐命令名
+  6.现在后跟一个空格和一个文件名的前一段，按<tab>,vim会完成余下的文件名
+注:补齐对大多数命令有效
+
+小结:
+:help,打开help窗口
+:help command,获得对command命令的帮助
+Ctrl-w，进行窗口切换
+:q,关闭help窗口
+创建vimrc脚本设置vim
+:command 此时按ctrl-d查看可选清单，用<tab>补齐
